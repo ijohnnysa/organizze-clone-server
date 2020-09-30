@@ -6,7 +6,9 @@
   "author": "Johnny Araújo <ijohnnysa@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node ./src/server.js"
+    "dev": "nodemon --exec babel-node ./src/server.js",
+    "lint": "eslint . --quiet",
+    "lint:fix": "yarn lint --fix"
   },
   "dependencies": {
     "express": "^4.17.1"
