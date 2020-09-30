@@ -4,6 +4,6 @@ const server = app;
 
 const port = 3333;
 
-app.listen(port, () => {
+server.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
