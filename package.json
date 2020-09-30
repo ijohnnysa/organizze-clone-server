@@ -5,6 +5,9 @@
   "repository": "https://github.com/ijohnnysa/organizze-clone-server.git",
   "author": "Johnny Araújo <ijohnnysa@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
