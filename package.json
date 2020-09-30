@@ -6,7 +6,7 @@
   "author": "Johnny Araújo <ijohnnysa@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon ./src/server.js"
+    "dev": "nodemon --exec babel-node ./src/server.js"
   },
   "dependencies": {
     "express": "^4.17.1"
