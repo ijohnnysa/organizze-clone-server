@@ -10,6 +10,16 @@
     "lint": "eslint . --quiet",
     "lint:fix": "yarn lint --fix"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn lint:fix"
+    ]
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
